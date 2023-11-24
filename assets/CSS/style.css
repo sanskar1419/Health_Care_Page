@@ -1,0 +1,172 @@
+/* Main body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Header Section styling */
+#Header-section {
+  height: 80vh;
+  width: 100vw;
+  /* border: 2px solid black; */
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+  padding-top: 1rem;
+  box-shadow: inset 0px 0px 50px 20px rgb(36, 28, 28);
+  overflow: hidden;
+  position: relative;
+}
+
+#Header-section video {
+  position: absolute;
+  height: 200%;
+  width: 250%;
+  top: -50%;
+  left: -75%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/* Horizontal List */
+/* .bars {
+  color: black;
+  margin: 0;
+  margin-right: 5%;
+  display: none;
+}
+
+.dropdown-list {
+  margin: 0;
+  display: none;
+  background-color: #828470;
+  box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul {
+  margin: 0.2rem 0.2rem;
+  text-align: left;
+  padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list {
+  display: block;
+  position: absolute;
+  right: 3%;
+}
+
+.dropdown-list li {
+  margin: 0.4rem 0px;
+}
+.no-list-style {
+  list-style: none;
+}
+.no-list-style li {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.no-list-style li a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+} */
+
+/* Navigation Menu */
+#Header-section nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px 12%;
+  margin-top: 3vh;
+}
+.logoContainer {
+  width: 20%;
+}
+/* Logo Styling */
+.logoContainer a {
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #121a2c;
+}
+.logoContainer a span {
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+/* Unordered List Item */
+#Header-section nav ul {
+  margin: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.Horizontal-List {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  /* border: 2px solid black; */
+}
+/* .Horizontal-List li {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+} */
+
+.Horizontal-List li a {
+  color: rgb(31, 22, 22);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 1s, border-bottom 4s;
+}
+
+.nav-menu a:hover {
+  color: lightgray;
+  border-bottom: 1px solid black;
+}
+
+#Header-Content {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 0px 12%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Header-Content h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#Header-Content p {
+  margin-bottom: 50px;
+}
+#Header-Content a {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+#Header-Content a span {
+  /* background-color: linear-gradient(0deg, #0bba80, #57e3b8);
+  padding: 13px 35px; */
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 13px 35px;
+  border-radius: 25px;
+}
+
+/* Common class for whole page */
+.text-center {
+  text-align: center;
+}
