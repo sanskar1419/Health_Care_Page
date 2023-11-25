@@ -240,7 +240,63 @@ body {
   color: #624083;
   font-size: 0.8rem;
 }
+/* .......................Styling to what to expect container */
+#coustomer-expert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  height: auto;
+  /* border: 2px solid black; */
+  /* padding: 10px 40px; */
+}
+#What-to-expect {
+  width: 80%;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image-container {
+  width: 47%;
+  /* border: 2px solid black; */
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 8px solid #0a172c;
+  box-shadow: inset 2px 2px 8px 8px black;
+}
+.WTE-content-container {
+  width: 47%;
+  /* border: 2px solid black; */
+  height: 90%;
+}
 
+.WTE-content-container a {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.WTE-content-container a span {
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 13px 35px;
+  border-radius: 25px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* .......................Styling to we offer container */
 #we-offer-container {
   display: flex;
@@ -262,13 +318,16 @@ body {
   font-size: 1.2rem;
 }
 
+/* Latest Song Sextion................... */
+
 .Latest-song {
-  width: 100%;
+  width: 93vw;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   display: flex;
-  height: 50vh;
+  height: 60vh;
+  /* border: 2px solid black; */
 }
 
 #slider {
@@ -284,23 +343,80 @@ body {
 }
 
 #slider label,
-#slider label img {
+#slider label .Card {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   color: white;
+  background: linear-gradient(0deg, #88e7c7, #a0afab);
+  box-shadow: inset 2px 2px 8px 8px #0bba80;
   font-size: 70px;
   font-weight: bold;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   transition: transform 400ms ease;
 }
+.Doctor-image-container {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Doctor-image-container img {
+  width: 100%;
+  height: inherit;
+  /* border-radius: 50% */
+}
+.Doctor-content-container {
+  width: 47%;
+  height: 100%;
+  /* border: 2px solid black; */
+  /* color: black; */
+  /* padding-right: 5px; */
+  padding: 15px;
+}
 
+.Doctor-content-container h4 {
+  font-size: 1rem;
+  color: #040a08;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Doctor-content-container h2 {
+  color: #0a172c;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.Doctor-content-container p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  color: #292931;
+  margin-bottom: 20px;
+}
+
+.Doctor-content-container a {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.Doctor-content-container a span {
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 13px 35px;
+  border-radius: 25px;
+}
 input[type="radio"] {
   position: relative;
   top: 108%;
@@ -387,6 +503,114 @@ section:nth-child(2n + 1) {
 section:target {
   background-color: rgb(187, 194, 197);
 }
+
+/* Testimonial Section */
+
+#Customer-feedback-container {
+  /* border: 2px solid black; */
+  height: auto;
+  background-image: url("assets/IMAGES/Background.jpg");
+}
+#Customer-feedback-container h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.timeline-container {
+  width: 75%;
+  /* border: 2px solid black; */
+  position: relative;
+}
+
+.timeline-div {
+  width: 40%;
+  min-height: 150px;
+  /* border: 2px solid black; */
+  margin: 10px;
+  position: relative;
+  text-align: right;
+  /* box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.timeline-div:nth-child(2n) {
+  margin-left: 56%;
+}
+
+.timeline-mover {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  width: 0;
+  height: 74.5%;
+  border: 2px dotted #0a172c;
+}
+
+.time-traveller {
+  position: sticky;
+  top: 21%;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+.time-traveller i {
+  color: #0a172c;
+  margin: -10px;
+}
+
+.timeline-div::after {
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: #10459b;
+  position: absolute;
+  top: 50%;
+  right: -24%;
+  z-index: 1;
+}
+.timeline-div:nth-child(2n):after {
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: #10459b;
+  position: absolute;
+  top: 50%;
+  left: -16%;
+  z-index: 1;
+}
+
+.timeline-details {
+  padding: 8px;
+  width: 100%;
+}
+.timeline-image-container {
+  width: 50px;
+  position: absolute;
+  overflow: hidden;
+  top: 8%;
+}
+.timeline-image-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Experience-designation {
+  font-size: 1.4rem;
+  color: #0a172c;
+}
+
+.experience-description {
+  font-size: 14px;
+  padding: 2px;
+  color: grey;
+  line-height: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
 /* Common class for whole page */
 .text-center {
   text-align: center;
