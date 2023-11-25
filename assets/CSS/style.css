@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .all-content-container {
@@ -509,7 +509,6 @@ section:target {
 #Customer-feedback-container {
   /* border: 2px solid black; */
   height: auto;
-  background-image: url("assets/IMAGES/Background.jpg");
 }
 #Customer-feedback-container h1 {
   margin-top: 10px;
@@ -611,6 +610,30 @@ section:target {
   text-align: justify;
 }
 
+/* Location Container */
+.Location-container {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(143, 99, 99);
+  width: 65%;
+  padding: 15px;
+  background: linear-gradient(0deg, #88e7c7, #16735a);
+  /* box-shadow: inset 2px 2px 8px 8px #0bba80; */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.mapContainer {
+  width: 60%;
+  /* border: 2px solid blue; */
+}
+.mapContainer iframe {
+  border-radius: 15px;
+}
+.AddressContainer {
+  width: 35%;
+}
 /* Common class for whole page */
 .text-center {
   text-align: center;
