@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natural Home Remedies For Constipation</title>
+    <!-- Linking Css file -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/CSS/Blog_Page.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/CSS/Add_Task_Style.css"
+    />
+    <!-- Setting fevicon to the movie website -->
+    <link rel="icon" href="assets/IMAGES/Logo.jpg" type="image/x-icon" />
+    <!-- Linking font awesome to add icon-->
+    <script
+      src="https://kit.fontawesome.com/acf3eaf7bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="assets/JAVASCRIPT/main.js"></script>
+  </head>
+  <body>
+    <my-header></my-header>
+    <div class="Blog-page-all-content-container">
+      <div class="blog-date-container">
+        <h1 class="Section-heading">Schedule Your Task for the day</h1>
+      </div>
+    </div>
+    <div class="Container_Task">
+      <!-- Container for heading and task -->
+      <div id="Todo-Container">
+        <!-- Container for heading -->
+        <header>
+          <div id="Todo-heading">
+            <h1>Schedule Tasks</h1>
+          </div>
+        </header>
+
+        <main>
+          <!-- Container for task Input and list of Todo -->
+          <div id="container">
+            <!-- Container for taking Input -->
+            <div id="taking-input">
+              <i class="fa-regular fa-rectangle-list"></i>
+              <input
+                placeholder="Add a task"
+                class="add-task"
+                id="add"
+                data-helloWord="asdasdas"
+              />
+              <button type="submit" class="add-button">
+                <i class="fa-solid fa-circle-plus" id="btn-add"></i>
+              </button>
+            </div>
+
+            <!-- Adding All task completed indicator and Clear all Button -->
+            <h5>
+              <span class="All-task" id="Blue-tick"
+                ><i class="fa-solid fa-check-double"></i>All Task Completed
+              </span>
+              <span class="Clear-All" id="clear">Clear All</span>
+            </h5>
+
+            <!-- Adding horizontal row to before list -->
+            <hr />
+
+            <!-- Start of todo List -->
+            <ul id="list">
+              <!-- list item added in Java Script -->
+            </ul>
+
+            <!-- Adding horizontal row to After list -->
+            <hr />
+
+            <!-- Adding filter button for All , Uncomplete and Complete -->
+            <!-- Adding Total task counter -->
+            <h5 class="Todo-footer-heading">
+              <span id="total-tasks"
+                >Total tasks: <span id="tasks-counter">0</span></span
+              >
+              <span
+                ><span class="All-Task-button" id="all-menu"> All </span
+                ><span class="Uncompleted-button"> Uncompleted </span
+                ><span class="Completed-button"> Completed </span></span
+              >
+            </h5>
+          </div>
+        </main>
+      </div>
+    </div>
+    <my-footer></my-footer>
+    <script type="text/javascript" src="assets/JAVASCRIPT/script.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/JAVASCRIPT/Add_Task_Script.js"
+    ></script>
+  </body>
+</html>
