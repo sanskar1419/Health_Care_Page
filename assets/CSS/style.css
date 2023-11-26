@@ -700,6 +700,61 @@ section:target {
   border-radius: 25px;
   margin-bottom: 20px;
 }
+
+/* Footer Styling */
+footer {
+  width: 100%;
+  border: 2px solid black;
+  background-image: linear-gradient(to right, #2857a4, #403066);
+  height: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container {
+  padding: 50px 0px;
+  /* max-width: 1200px; */
+  width: 90%;
+  border: 2px solid black;
+  margin: 0px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-box-company {
+  max-width: 350px;
+}
+.footer-box-company p {
+  margin: 5px 0px;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.4px;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-social a {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px; */
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.footer-social a:hover {
+  color: #403066;
+  background-color: white;
+}
 /* Common class for whole page */
 .text-center {
   text-align: center;
