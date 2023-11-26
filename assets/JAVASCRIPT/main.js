@@ -144,16 +144,15 @@ class MyFooter extends HTMLElement {
         </div>
       
         <div class="footer-link-box">
-          <strong>Main Link's</strong>
+          <strong>Blogs Links</strong>
           <ul>
             <li>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
+              <a href="">Constipation Blog</a>
+              <a href="">Acidity Blog</a>
+              <a href="">Platelet Blog</a>
             </li>
           </ul>
+             <a href="" class="btn-appointment"><span>Schedule Tasks</span></a>
         </div>
       </div>
       

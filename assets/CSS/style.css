@@ -766,6 +766,7 @@ footer {
   font-size: 1.2rem;
   font-weight: 600;
   color: #0a172c;
+  line-height: 50px;
 }
 
 .footer-link-box ul {
@@ -773,6 +774,7 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 20px;
 }
 .footer-link-box ul li a {
   color: white;
@@ -798,6 +800,21 @@ footer hr {
   width: 90%;
   padding: 20px 0px;
   margin: auto;
+}
+
+.btn-appointment {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.btn-appointment span {
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 13px 35px;
+  border-radius: 25px;
 }
 
 /* Common class for whole page */
