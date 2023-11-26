@@ -152,7 +152,7 @@ class MyFooter extends HTMLElement {
               <a href="">Platelet Blog</a>
             </li>
           </ul>
-             <a href="" class="btn-appointment"><span>Schedule Tasks</span></a>
+             <a href="" class="btn-appointment"><span>Schedule an Appointment</span></a>
         </div>
       </div>
       
