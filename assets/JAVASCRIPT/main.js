@@ -10,38 +10,47 @@ class MyHeader extends HTMLElement {
         ></video>
         <!-- Navigation Menu -->
         <nav>
-          <!-- <div class="dropdown-menu text-right">
+          <div class="dropdown-menu text-right">
                 <div class="bars">
                   <i class="fas fa-bars"></i>
                 </div>
                 <div class="dropdown-list nav-menu">
                   <ul class="no-list-style">
-                    <li>
-                      <a href="#"> Home </a>
-                    </li>
-                    <li>
-                      <a href="#About"> About </a>
-                    </li>
-                    <li>
-                      <a href="#Skills"> Skills </a>
-                    </li>
-                    <li>
-                      <a href="#Experience">Experience</a>
-                    </li>
-                    <li>
-                      <a href="#Education">Education</a>
-                    </li>
-                    <li>
-                      <a href="#Portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="#Contact">Contact</a>
-                    </li>
+                  <li>
+                  <a href="index.html">Home</a>
+                </li>
+    
+                <li>
+                  <a href="#site-info-section">Site Info</a>
+                </li>
+    
+                <li>
+                  <a href="#coustomer-expert-container">Expactation</a>
+                </li>
+    
+                <li>
+                  <a href="#our-story">Doctors</a>
+                  <br>
+                </li>
+    
+                <li>
+                  <a href="#Customer-feedback-container">Feedback</a>
+                </li>
+    
+                <li>
+                  <a href="#location">Location</a>
+                </li>
+                <li>
+                 <a href="#Blog-Section">Blogs</a>
+               </li>
+                <li>
+                  <a href="#Contact">Contact</a>
+                </li>
                   </ul>
                 </div>
-              </div> -->
+              </div>
           <div class="logoContainer">
-            <a href=""><span>Health</span> Care</a>
+            <a href="About_Page.html"><span>Health</span> Care</a>
           </div>
           <ul class="Horizontal-List text-center nav-menu">
             <li>
@@ -49,25 +58,27 @@ class MyHeader extends HTMLElement {
             </li>
 
             <li>
-              <a href="About_Page.html">About</a>
+              <a href="#site-info-section">Site Info</a>
             </li>
 
             <li>
-              <a href="#Skills">Skills</a>
+              <a href="#coustomer-expert-container">Expactation</a>
             </li>
 
             <li>
-              <a href="#Experience">Experience</a>
+              <a href="#our-story">Doctors</a>
             </li>
 
             <li>
-              <a href="#Education">Education</a>
+              <a href="#Customer-feedback-container">Feedback</a>
             </li>
 
             <li>
-              <a href="#Portfolio">Portfolio</a>
+              <a href="#location">Location</a>
             </li>
-
+            <li>
+             <a href="#Blog-Section">Blogs</a>
+           </li>
             <li>
               <a href="#Contact">Contact</a>
             </li>
@@ -98,11 +109,11 @@ customElements.define("my-header", MyHeader);
 
 class MyFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = ` <footer>
+    this.innerHTML = ` <footer id="Contact">
       <div class="footer-container">
         <div class="footer-box-company">
           <div class="logoContainer">
-            <a href=""><span>Health</span> Care</a>
+            <a href="About_Page.html"><span>Health</span> Care</a>
           </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -121,23 +132,23 @@ class MyFooter extends HTMLElement {
           <strong>Main Link's</strong>
           <ul>
             <li>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
+              <a href="index.html">Home</a>
+              <a href="About_Page.html">About Page</a>
+              <a href="#site-info-section">Site Info</a>
+              <a href="#coustomer-expert-container">Expactation</a>
+              <a href="#our-story">Doctors</a>
             </li>
           </ul>
         </div>
       
         <div class="footer-link-box">
-          <strong>Main Link's</strong>
+          <strong>Section Link's</strong>
           <ul>
             <li>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
-              <a href="">Home</a>
+              <a href="#Customer-feedback-container">Feedback</a>
+              <a href="#location">Location</a>
+              <a href="#Blog-Section">Blogs</a>
+              <a href="#Contact">Contact</a>
               <a href="">Home</a>
             </li>
           </ul>
@@ -164,5 +175,4 @@ class MyFooter extends HTMLElement {
       </footer>`;
   }
 }
-
 customElements.define("my-footer", MyFooter);

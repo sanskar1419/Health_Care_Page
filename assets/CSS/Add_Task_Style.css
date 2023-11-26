@@ -251,3 +251,28 @@ h5.Todo-footer-heading {
 #container hr {
   color: #0a172c;
 }
+
+@media screen and (max-width: 568px) {
+  #taking-input i {
+    font-size: 1rem;
+  }
+  .add-task {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #taking-input i {
+    font-size: 1rem;
+  }
+  .add-task {
+    width: 78%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #taking-input i {
+    font-size: 1.2rem;
+  }
+  .add-task {
+    width: 81%;
+  }
+}

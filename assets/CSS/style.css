@@ -39,17 +39,20 @@ body {
 }
 
 /* Horizontal List */
-/* .bars {
+.bars {
   color: black;
   margin: 0;
   margin-right: 5%;
   display: none;
+  /* position: absolute;
+  /* top: 100px; */
+  /* left: 450px; */
 }
 
 .dropdown-list {
   margin: 0;
   display: none;
-  background-color: #828470;
+  background-color: #0dc456;
   box-shadow: 0px 4px 8px 1px #535547;
 }
 
@@ -60,7 +63,7 @@ body {
 }
 
 .dropdown-menu:hover .dropdown-list {
-  display: block;
+  display: inline-block;
   position: absolute;
   right: 3%;
 }
@@ -74,12 +77,14 @@ body {
 .no-list-style li {
   font-weight: 100;
   font-size: 0.9rem;
+  display: inline-block;
 }
 .no-list-style li a {
   list-style: none;
   color: black;
   text-decoration: none;
-} */
+  /* display: inline-block; */
+}
 
 /* Navigation Menu */
 #Header-section nav {
@@ -90,7 +95,7 @@ body {
   margin-top: 3vh;
 }
 .logoContainer {
-  width: 20%;
+  width: 40%;
 }
 /* Logo Styling */
 .logoContainer a {
@@ -107,16 +112,14 @@ body {
 }
 
 /* Unordered List Item */
-#Header-section nav ul {
-  margin: 0;
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-}
 .Horizontal-List {
   list-style: none;
   margin-left: 0;
   padding: 0;
+  margin: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
   /* border: 2px solid black; */
 }
 /* .Horizontal-List li {
@@ -218,6 +221,12 @@ body {
   align-items: center;
   justify-content: center;
   /* max-width: 60%; */
+}
+#site-info-section h1 {
+  text-align: center;
+}
+#site-info-section p {
+  text-align: justify;
 }
 .treatment-container {
   width: 100%;
@@ -759,8 +768,9 @@ footer {
 .footer-link-box {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
+  width: 90%;
 }
 .footer-link-box strong {
   font-size: 1.2rem;
@@ -806,7 +816,7 @@ footer hr {
   color: white;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -835,4 +845,562 @@ footer hr {
 .para-styling {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 25px;
+}
+
+/* Making Site Responsive */
+@media screen and (max-width: 572px) {
+  /* .timeline-div {
+    width: 100%;
+  } */
+  .Horizontal-List {
+    display: none;
+  }
+
+  .bars {
+    display: inline-block;
+  }
+  #Header-Content {
+    margin-top: 1vh;
+  }
+  #Header-Content h1 {
+    font-size: 1.3rem;
+  }
+  #Header-Content a {
+    font-size: 1.1rem;
+  }
+
+  .Task-container {
+    width: 80%;
+  }
+
+  .Task-container h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .Task-container a {
+    font-size: 1.1rem;
+  }
+  .section-sub-heading {
+    font-size: 0.8rem;
+  }
+  .Section-heading {
+    font-size: 1.3rem;
+  }
+
+  .treatment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  #What-to-expect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .image-container img {
+    height: 200px;
+    width: 200px;
+  }
+  .WTE-content-container {
+    width: 95%;
+  }
+  .WTE-content-container a {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  #we-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap:wrap ; */
+  }
+  .we-offer {
+    margin-bottom: 15px;
+  }
+  .Latest-song {
+    height: 50vh;
+  }
+  #slider label,
+  #slider label .Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Doctor-image-container {
+    width: 50%;
+  }
+  .Doctor-image-container img {
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 120px;
+  }
+  .Doctor-content-container {
+    width: 90%;
+    text-align: center;
+  }
+  .Doctor-content-container h4 {
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+  .Doctor-content-container h2 {
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+  .Doctor-content-container p {
+    display: none;
+  }
+  .Doctor-content-container a {
+    font-size: 0.7rem;
+  }
+  .timeline-div {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .timeline-div:nth-child(2n) {
+    margin-left: 15%;
+  }
+
+  .timeline-mover {
+    left: 5%;
+  }
+
+  .timeline-div::after {
+    left: -14% !important;
+  }
+  #Customer-feedback-container p {
+    text-align: justify;
+  }
+  #location h1 {
+    text-align: center;
+  }
+  .Location-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+  }
+  .mapContainer {
+    width: 95%;
+    /* border: 2px solid blue; */
+  }
+  .AddressContainer {
+    width: 95%;
+    text-align: center;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .blog {
+    margin-bottom: 20px;
+  }
+  .blog a {
+    font-size: 1rem;
+  }
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-box-company {
+    max-width: 700px;
+  }
+  .footer-box-company p {
+    text-align: justify;
+  }
+  .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-appointment {
+    font-size: 1rem;
+  }
+  .footer-bootom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* .timeline-div {
+    width: 100%;
+  } */
+  .Horizontal-List {
+    display: none;
+  }
+
+  .bars {
+    display: inline-block;
+  }
+  #Header-Content {
+    margin-top: 1vh;
+  }
+  #Header-Content h1 {
+    font-size: 1.3rem;
+  }
+  #Header-Content a {
+    font-size: 1.1rem;
+  }
+
+  .Task-container {
+    width: 80%;
+  }
+
+  .Task-container h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .Task-container a {
+    font-size: 1.1rem;
+  }
+  .section-sub-heading {
+    font-size: 0.8rem;
+  }
+  .Section-heading {
+    font-size: 1.3rem;
+  }
+
+  .treatment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  #What-to-expect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .image-container img {
+    height: 200px;
+    width: 200px;
+  }
+  .WTE-content-container {
+    width: 95%;
+  }
+  .WTE-content-container a {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  #we-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap:wrap ; */
+  }
+  .we-offer {
+    margin-bottom: 15px;
+  }
+  .Latest-song {
+    height: 55vh;
+  }
+  #slider label,
+  #slider label .Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Doctor-image-container {
+    width: 50%;
+  }
+  .Doctor-image-container img {
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 160px;
+  }
+  .Doctor-content-container {
+    width: 90%;
+    text-align: center;
+  }
+  .Doctor-content-container h4 {
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+  .Doctor-content-container h2 {
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+  .Doctor-content-container p {
+    display: none;
+  }
+  .Doctor-content-container a {
+    font-size: 0.7rem;
+  }
+  .timeline-div {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .timeline-div:nth-child(2n) {
+    margin-left: 15%;
+  }
+
+  .timeline-mover {
+    left: 5%;
+  }
+
+  .timeline-div::after {
+    left: -14% !important;
+  }
+  #Customer-feedback-container p {
+    text-align: justify;
+  }
+  #location h1 {
+    text-align: center;
+  }
+  .Location-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+  }
+  .mapContainer {
+    width: 95%;
+    /* border: 2px solid blue; */
+  }
+  .AddressContainer {
+    width: 95%;
+    text-align: center;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .blog {
+    margin-bottom: 20px;
+  }
+  .blog a {
+    font-size: 1rem;
+  }
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-box-company {
+    max-width: 700px;
+  }
+  .footer-box-company p {
+    text-align: justify;
+  }
+  .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-appointment {
+    font-size: 1rem;
+  }
+  .footer-bootom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* .timeline-div {
+    width: 100%;
+  } */
+  .Horizontal-List {
+    display: none;
+  }
+
+  .bars {
+    display: inline-block;
+  }
+  #Header-Content {
+    margin-top: 1vh;
+  }
+  #Header-Content h1 {
+    font-size: 1.3rem;
+  }
+  #Header-Content a {
+    font-size: 1.1rem;
+  }
+
+  .Task-container {
+    width: 80%;
+  }
+
+  .Task-container h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .Task-container a {
+    font-size: 1.1rem;
+  }
+  .section-sub-heading {
+    font-size: 0.8rem;
+  }
+  .Section-heading {
+    font-size: 1.3rem;
+  }
+
+  /* .treatment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  } */
+  #What-to-expect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .image-container img {
+    height: 200px;
+    width: 200px;
+  }
+  .WTE-content-container {
+    width: 95%;
+  }
+  .WTE-content-container a {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  #we-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap:wrap ; */
+  }
+  .we-offer {
+    margin-bottom: 15px;
+  }
+  .Latest-song {
+    height: 60vh;
+  }
+  #slider label,
+  #slider label .Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Doctor-image-container {
+    width: 50%;
+  }
+  .Doctor-image-container img {
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 160px;
+  }
+  .Doctor-content-container {
+    width: 90%;
+    text-align: center;
+  }
+  .Doctor-content-container h4 {
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+  .Doctor-content-container h2 {
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+  .Doctor-content-container p {
+    display: none;
+  }
+  .Doctor-content-container a {
+    font-size: 0.7rem;
+  }
+  .timeline-div {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .timeline-div:nth-child(2n) {
+    margin-left: 15%;
+  }
+
+  .timeline-mover {
+    left: 5%;
+  }
+
+  .timeline-div::after {
+    left: -13% !important;
+  }
+  #Customer-feedback-container p {
+    text-align: justify;
+  }
+  #location h1 {
+    text-align: center;
+  }
+  .Location-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+  }
+  .mapContainer {
+    width: 95%;
+    /* border: 2px solid blue; */
+  }
+  .AddressContainer {
+    width: 95%;
+    text-align: center;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .blog {
+    margin-bottom: 20px;
+  }
+  .blog a {
+    font-size: 1rem;
+  }
+  .btn-appointment {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1525px) {
+  .Doctor-content-container h4 {
+    font-size: 0.8rem;
+  }
+  .Doctor-content-container h2 {
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  .Doctor-content-container p {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+  }
+  .Doctor-content-container a {
+    font-size: 1rem;
+  }
 }
