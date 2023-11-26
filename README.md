@@ -3,7 +3,7 @@
 A Multi page Healthcare Website to help 65+ aged person to make there life better. Here they can they can do multiple tasking like schedule an appoitement, schedule task, contact doctor etc.
 The Page has been made irrespective of the device we are watching.
 
-## Deploy Link : https://sanskar1419.github.io/Music-Player/
+## Deploy Link : https://sanskar1419.github.io/Health_Care_Page/
 
 ### Programming Language Used
 
@@ -30,3 +30,5 @@ The Page has been made irrespective of the device we are watching.
 - Adding Doctors Profile
 - Adding Appointment form
 - Making it functioning for all thing using backend technology.
+
+
