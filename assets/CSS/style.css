@@ -634,6 +634,72 @@ section:target {
 .AddressContainer {
   width: 35%;
 }
+
+/* BLoag Container */
+.blog-container {
+  max-width: 1200px;
+  width: 90%;
+  /* border: 2px solid black; */
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.blog-container::-webkit-scrollbar {
+  height: 2px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #ede3ee;
+  text-align: center;
+  border-radius: 15px;
+  height: auto;
+  overflow: hidden;
+}
+/* .blog:hover {
+  border: 5px solid lightblue;
+} */
+.image-container-blog {
+  overflow: hidden;
+}
+.blog img {
+  max-width: 350px;
+  height: 300px;
+  border-radius: 15px 15px 0px 0px;
+  transition: 1s all ease-in-out;
+  overflow-y: hidden;
+}
+.blog img:hover {
+  transform: scale(1.5);
+}
+.blog h3 {
+  color: #0a172c;
+}
+.blog a {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.blog a span {
+  background-color: #0a172c;
+  color: rgb(219, 194, 194);
+  padding: 13px 35px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
 /* Common class for whole page */
 .text-center {
   text-align: center;
