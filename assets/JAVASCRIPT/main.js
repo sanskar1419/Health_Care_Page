@@ -45,7 +45,7 @@ class MyHeader extends HTMLElement {
           </div>
           <ul class="Horizontal-List text-center nav-menu">
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
 
             <li>
