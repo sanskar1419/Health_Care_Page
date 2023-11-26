@@ -1,4 +1,4 @@
-/* Main body */
+/* Main body............................................................................................................. */
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-/* Header Section styling */
+/* Header Section styling .........................................................................................................*/
 #Header-section {
   height: 80vh;
   width: 100vw;
@@ -38,7 +38,7 @@ body {
   /* opacity: 0.8; */
 }
 
-/* Horizontal List */
+/* Horizontal List...................................................................................................................... */
 .bars {
   color: black;
   margin: 0;
@@ -86,7 +86,7 @@ body {
   /* display: inline-block; */
 }
 
-/* Navigation Menu */
+/* Navigation Menu..................................................................................................................*/
 #Header-section nav {
   display: flex;
   justify-content: space-between;
@@ -176,7 +176,7 @@ body {
   border-radius: 25px;
 }
 
-/* Task Container styling */
+/* Task Container styling................................................................................................................ */
 .Task-container {
   max-width: 1000px;
   width: 90%;
@@ -215,7 +215,7 @@ body {
   padding: 13px 35px;
   border-radius: 25px;
 }
-
+/* Site Info Section ............................................................................................................................................... */
 #site-info-section {
   display: flex;
   align-items: center;
@@ -249,7 +249,7 @@ body {
   color: #624083;
   font-size: 0.8rem;
 }
-/* .......................Styling to what to expect container */
+/*Styling to what to expect container...................................................................................................... */
 #coustomer-expert-container {
   display: flex;
   justify-content: center;
@@ -306,7 +306,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* .......................Styling to we offer container */
+/* .......................Styling to we offer container .................................................................*/
 #we-offer-container {
   display: flex;
   justify-content: space-around;
@@ -327,7 +327,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* Latest Song Sextion................... */
+/* Doctor SeCtion................... ........................................................................................*/
 
 .Latest-song {
   width: 93vw;
@@ -492,7 +492,7 @@ input[type="radio"]:checked {
   transform: translate3d(-25%, 0, -100px);
 }
 
-/* Common Styling to Sectuion */
+/* Common Styling to Sectuion ...........................................................................................*/
 section {
   width: 93vw;
   height: auto;
@@ -513,7 +513,7 @@ section:target {
   background-color: rgb(187, 194, 197);
 }
 
-/* Testimonial Section */
+/* Testimonial Section ................................................................................................................*/
 
 #Customer-feedback-container {
   /* border: 2px solid black; */
@@ -619,7 +619,7 @@ section:target {
   text-align: justify;
 }
 
-/* Location Container */
+/* Location Container .......................................................................................................................*/
 .Location-container {
   /* border: 2px solid black; */
   display: flex;
@@ -710,7 +710,7 @@ section:target {
   margin-bottom: 20px;
 }
 
-/* Footer Styling */
+/* Footer Styling .........................................................................................................................................*/
 footer {
   width: 100%;
   /* border: 2px solid black; */
@@ -827,7 +827,7 @@ footer hr {
   border-radius: 25px;
 }
 
-/* Common class for whole page */
+/* Common class for whole page ............................................................................................................*/
 .text-center {
   text-align: center;
 }
@@ -847,7 +847,7 @@ footer hr {
   margin-bottom: 25px;
 }
 
-/* Making Site Responsive */
+/* Making Site Responsive ........................................................................................................................*/
 @media screen and (max-width: 572px) {
   /* .timeline-div {
     width: 100%;

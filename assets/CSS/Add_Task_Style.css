@@ -6,7 +6,7 @@
   background: linear-gradient(0deg, #0bba80, #3ec29b);
 }
 
-/* Appling Styles to todo container*/
+/* Appling Styles to todo container......................................................................................................*/
 #Todo-Container {
   /* border: 2px solid black; */
   height: auto;
@@ -20,7 +20,7 @@
   align-items: center; */
 }
 
-/* Appling Style to the Todo Heading and Container for the app */
+/* Appling Style to the Todo Heading and Container for the app ............................................................................*/
 #Todo-heading {
   /* border: 2px solid black; */
   background-color: #0a845f;
@@ -44,7 +44,7 @@
   transform: scale(1.05);
 }
 
-/* Appling Style to Input and Todo list container */
+/* Appling Style to Input and Todo list container .............................................................................................*/
 #container {
   /* border: 2px solid black; */
   width: 80%;
@@ -113,7 +113,7 @@
   transform: translate(4px, 4px);
 }
 
-/* Styling for All task indicator and Clear All */
+/* Styling for All task indicator and Clear All ..............................................................................................*/
 h5 {
   display: flex;
   justify-content: space-between;
@@ -223,7 +223,7 @@ h5 {
   cursor: pointer;
 }
 
-/* Styles for total task and filter(all , uncomplete and Complete*/
+/* Styles for total task and filter(all , uncomplete and Complete.........................................................................................*/
 h5.Todo-footer-heading {
   display: flex;
   justify-content: space-between;

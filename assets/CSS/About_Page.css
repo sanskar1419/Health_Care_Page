@@ -1,3 +1,4 @@
+/* About Container Styling.................................................................................................................. */
 .About-all-content {
   display: flex;
   justify-content: center;
@@ -11,6 +12,7 @@
   /* border: 2px solid black; */
   width: 100%;
 }
+/* middle-all-content......................................................................................................................... */
 .middle-all-content {
   display: flex;
   justify-content: center;
@@ -21,6 +23,7 @@
 hr {
   width: 90%;
 }
+/* bottom-all-content.............................................................................................................................. */
 .bottom-all-content {
   display: flex;
   justify-content: center;
