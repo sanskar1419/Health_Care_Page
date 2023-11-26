@@ -704,19 +704,20 @@ section:target {
 /* Footer Styling */
 footer {
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-image: linear-gradient(to right, #2857a4, #403066);
   height: auto;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .footer-container {
   padding: 50px 0px;
   /* max-width: 1200px; */
   width: 90%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 0px auto;
   display: flex;
   align-items: flex-start;
@@ -755,6 +756,50 @@ footer {
   color: #403066;
   background-color: white;
 }
+.footer-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer-link-box strong {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0a172c;
+}
+
+.footer-link-box ul {
+  margin-top: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-link-box ul li a {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link-box ul li a:hover {
+  color: #0a172c;
+}
+footer hr {
+  width: 90%;
+}
+
+.footer-bootom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 20px 0px;
+  margin: auto;
+}
+
 /* Common class for whole page */
 .text-center {
   text-align: center;
