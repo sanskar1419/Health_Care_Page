@@ -1,0 +1,46 @@
+.About-all-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2% 10%;
+  /* border: 2px solid black; */
+  background: linear-gradient(0deg, #45a785, #046d4d);
+}
+.About-Heading {
+  /* border: 2px solid black; */
+  width: 100%;
+}
+.middle-all-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 14%;
+  flex-direction: column;
+}
+hr {
+  width: 90%;
+}
+.bottom-all-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 14%;
+  flex-direction: column;
+}
+.Health-care-service-provider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+}
+.health-logo {
+  width: 40%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.provider-content {
+  width: 55%;
+}

@@ -49,7 +49,7 @@ class MyHeader extends HTMLElement {
             </li>
 
             <li>
-              <a href="#About">About</a>
+              <a href="About_Page.html">About</a>
             </li>
 
             <li>
